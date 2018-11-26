@@ -74,6 +74,14 @@ color: #7bb9ff;
 .portfolio-title, .portfolio-subtitle{
 	text-align: center;
 }
+.photo1{
+	width: 457px;
+	height: 200px;
+}
+.photo2{
+	width: 457px;
+	height: 200px;
+}
 .portfolio-col-1{
 	padding-left: 50px;
 }
