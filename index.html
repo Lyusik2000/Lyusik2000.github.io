@@ -1,108 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	  <!-- Важная техническая информация для браузера -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--  -->
+	<meta name="description" content="Сайт разработчика Артура">
+	<meta name="author" content="Артур Люсик">
+	<!-- -->
+	<link rel="icon" href="/favicon.ico">
+	<!-- -->
+	<title>Артур Люсик-второй сайт</title>
+	<!-- шрифт робот -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 
-		<!-- Информация об Авторе и описание проекта -->
-		<meta name="description" content="Сайт разработчика Артура Люсика">
-		<meta name="auyhor" content="Артур Люсик">
+	<link rel="stylesheet" href="css/animate.css">
 
-		<!-- Иконка, которая будет на вкладке в браузере -->
-		<link rel="icon" href="/favicon.ico">
-		<!-- Заголовок на вкладке в браузере -->
-		<title>Люсик Артур - первый сайт</title>
-		<!-- Шрифты от гугл-->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet"> 
-		<!-- Подключаем наш файл со стилями, который находится в папке css-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-		<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
- <!-- Тут будет содержимое будущего сайта -->
-  <header>
-  	<div class="container"	>
-  		<div class="row">
-  		<div class="col-lg-7">
-  			<img class="header-img" src="img/main.img.png" alt="Монитор">
-  		</div>
-  			<!-- /.col-7 -->
-  			<div class="col-lg-5">
-  				<p class="header-pretitle">Веб-разработчик</p>	
-  				<h1 class="header-title">Люсик Артур</h1>
-  				<p class="header-subtitle">Верстка на HTML/CSS<br>
-				Разработка сайтов под ключ</p>
-				<div class="header-buttom-block"><a href="https://t.me/arturchik18i" class="header_button">Связаться </a>
-				<small>Это бесплатно</small></div>
-  			</div>
-  			<!-- /.col-5 -->
-  		</div>
-  		<!-- /.row -->
-  	</div>
-  	<!-- /.container -->
-  </header>    
-
- <section class="portfolio">
- 	<div class="container">
- 		<div class="portfolio-block">
- 		<h2 class="portfolio-title">Портфолио</h2>
- 		<p class="portfolio-subtitle"> Мои работы</p>
- 		<div class="row">
- 		<div class="col-md-6">
- 			<div class="portfolio-col-1">
- 				<img class="photo1" src="img/снег.jpeg" alt="Снег">
- 			<h3>название проекта</h3>
- 			<p class="portfolio-text">Описание данного проекта</p>
- 			<a href="#">Смотреть работу</a>
- 			</div>
- 		</div>
- 		<!-- /.col-6 -->
- 		<div class="col-md-6">
- 			<div class="portfolio-col-2">
- 				<img class="photo2" src="img/гора.jpg" alt="Гора">
- 			<h3>название проекта</h3>
- 			<p class="portfolio-text">Описание данного проекта</p>
- 			<a href="#">Смотреть работу</a>
- 			</div>
- 		</div>
- 		<!-- /.col-6 -->
- 		</div>
- 	</div>
- 	</div>
-
- </section>
-	
- <footer><div class="container">
+	<!--  -->
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link href="css/style.css" rel="stylesheet">
+ </head>
+ <body>
+ 	<!-- Содержимое сайта -->
+<header>
+	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<h4 class="footer-autor">Люсик Артур</h4>
-				<p class="footer-text">Разработка сайтов под ключ</p>
+			<div class="col-lg-7">
+				<img class="header-img wow fadeInLeftBig" src="img/mine-img.png" alt="Монитор">
 			</div>
-			<div class="col-md-4">
-				<div class="social-block">
-					<p>Подпишитесь:</p>
-					<a href="https://www.facebook.com/profile.php?id=100014813383892"><img src="img/socials/facebook-logo-button.png" alt="Facebook"></a>
-					<a href="https://t.me/arturchik18i"><img src="img/socials/telegram-symbol.png" alt="Telegram"></a>
-					<a href="https://vk.com/id_lys"><img src="img/socials/vk-social-logotype.png" alt="Вконтакте"></a>
-					<a href="https://www.youtube.com/channel/UChfEmg36CSOO-x5rVyVhyvQ"><img src="img/socials/youtube-symbol.png" alt="YouTube"></a>
-				</div>
+			<!-- /.col-7 -->
+			<div class="col-lg-5">
+			 <p class="header-pretitle wow fadeInRightBig"data-wow-delay="0.1s">Веб-разработчик</p>
+			 <h1 class="header-title wow fadeInRightBig"data-wow-delay="0.2s">Артур Люсик</h1>
+			 <p class="header-subtitle wow fadeInRightBig"data-wow-delay="0.3s">Верстка на HTML/CSS <br>Разработка сайтов под ключ</p>
+			 <div class="header-button-block wow fadeInRightBig"data-wow-delay="0.4s">
+			 	<button class="header-button wow fadeInRightBig"data-wow-delay="0.5s"> Связаться</button>
+			 <small>*Это бесплатно</small>
+			 </div>
 			</div>
-			<div class="col-md-4">
-				<div class="footer-cta-block">
-					<p class="footer-cta">Напишите мне:</p>
-				<a href="https://t.me/arturchik18i" class="footer-button">Написать</a>
-				</div>
-			</div>
+			<!-- /.col-5 -->
 		</div>
 		<!-- /.row -->
 	</div>
-	<!-- /.container --></footer>
+	<!-- /.container -->
+</header>
 
 
+<section class="portfolio">
+	<div class="container">
+		<div class="portfolio-block wow fadeIn">
+		<h2 class="portfolio-title">Портфолио</h2>
+		<p class="portfolio-subtitle">Мои работы</p>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="portfolio-col-1">
+				<img class="imgg" src="img/logo-1.png" alt="Гаспром">
+				<h3>внутренний университет «Газпром нефти»</h3>
+				<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
+				<a href="#">Смотреть работу</a>
+				</div>
+			</div>
+			<!-- /.col-6 -->
+			<div class="col-md-6">
+				<div class="portfolio-col-2">
+					<img class="imgg" src="img/logo-2.png" alt="">
+				<h3>Сайт платежной системы «Мир»</h3>
+				<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
+				<a href="#">Смотреть работу</a>
+				</div>
+			</div>
+			<!-- /.col-6 -->
+		</div>
+	</div>
+	</div>
+	
+	
+</section>
 
+<footer>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h4 class="footer-author">Артур Люсик</h4>
+				<p class="footer-text">Разработка сайтов под ключ</p>
+			</div>
+			<!-- /.col-4 -->
+			<div class="col-md-4">
+				<div class="social-block">
+					<p>Подпишитесь:</p>
+					<a class="wow bounceInDown"data-wow-delay="0.1s"href="#"><img  src="img/socials/vk-social-logotype.png" alt="Вконтакте"></a>
+					<a class="wow bounceInDown"data-wow-delay="0.2s" href="#"><img  src="img/socials/facebook-logo-button.png" alt="Фейсбук"></a>
+					<a class="wow bounceInDown"data-wow-delay="0.3s" href="#"><img  src="img/socials/youtube-symbol.png" alt="Youtube"></a>
+					<a class="wow bounceInDown"data-wow-delay="0.4s"href="#"><img  src="img/socials/telegram-symbol.png" alt="Телеграм"></a>
+				</div>
+			</div>
+			<!-- /.col-4 -->
+			<div class="col-md-4">
+				<div class="footer-cta-block">
+					<p class="footer-cta">Напишите мне:</p>
+				<button class="footer-button">Написать</button>
+				</div>
+			</div>
+			<!-- /.col-4 -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</footer>
+	 <script src="js/wow.min.js"></script>
+	 <script>
+	 	new WOW (). init ();
+	 </script>
 
-</body>
-</html>
+ </body>
+ </html>
